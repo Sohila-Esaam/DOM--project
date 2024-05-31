@@ -1,0 +1,30 @@
+.item{
+    overflow: hidden;
+}
+.item .item-content{
+   width: 80%;
+   left: 10%;
+   bottom: -30%;
+   transition: all 0.5s;
+}
+.item:hover .item-content{
+    bottom: 10px;
+}
+.boxModel{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.29);
+}
+.boxModel-content{
+    background-image: url(../images/portfolio-1.jpg);
+    width: 50%;
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+}
+.boxModel-content i{
+    cursor: pointer;
+}
